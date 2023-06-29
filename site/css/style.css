@@ -141,44 +141,38 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+.container2 {
+    margin-top: 1cm;
+    width: 45%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    align-content: center;
+    justify-content: space-between;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 12px 12px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 6px 1px #d4d4d4;
+    transition: 0.4s;
 
-@media screen and (min-width: 768px) {
-    body {
-        background-image: url('contact-about.jpg');
-        background-size: cover;
-        background-position: top center;
-        min-height: 100vh;
-    }
+
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+.container2:hover {
+    box-shadow: 2px 4px 7px 2px #a9a9a9;
+    transform: scale(1.03);
+    transition: 0.4s;
+    cursor: pointer;
+}
+h2 {
+    color: orangered;
+    font-size: xx-large;
+    letter-spacing: 2px;
 
-/* .box {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    position: relative;
-  }
-  
-  .animation-class {
-    animation-name: moveRight;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  
-  @keyframes moveRight {
-    from {
-        left: 0;
-    }
-    to {
-        left: 200px;
-    }
-  } */
-@keyframes wordAnimation {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }

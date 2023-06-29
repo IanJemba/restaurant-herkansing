@@ -3,6 +3,6 @@
 $dbhost = "mariadb";
 $dbuser = "root";
 $dbpass = "password";
-$dbname = "restaurant_herkansing";
+$dbname = "nations";
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
