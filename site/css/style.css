@@ -108,10 +108,11 @@ button {
 button:hover {
     background-color: #45a049;
 }
-
+section{
+    background-image: url(images/pic4.jpg);
+}
 body {
     font-family: Arial, sans-serif;
-    background-image: url(journal-and-coffee-at-table.jpg);
     margin: 0;
     padding: 0;
 }
@@ -175,4 +176,63 @@ h2 {
     font-size: xx-large;
     letter-spacing: 2px;
 
+}
+.dashboard-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dashboard-nav li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.dashboard-nav li a {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-nav li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.dashboard-container h2 {
+    text-align: center;
+}
+
+.dashboard-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dashboard-nav li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.dashboard-nav li a {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-nav li a:hover {
+    background-color: #45a049;
 }

@@ -14,7 +14,7 @@
         }
 
         header {
-            background-image: url(journal-and-coffee-at-table.jpg);
+            background-image: url(images/journal-and-coffee-at-table.jpg);
             padding: 20px;
             display: flex;
             justify-content: space-between;
@@ -79,15 +79,14 @@
             <a href="homepage.php">Lalo Passimi <span style="color: darkgrey;">El Eceite </span> </a>
         </div>
 
-       
+
         <nav>
 
             <ul class="navigation">
                 <li><a href="homepage.php">Home</a></li>
                 <li><a href="menukaart.php">Menu</a></li>
                 <li><a href="gerecht.php">Our dishes</a></li>
-                <li><a href="inloggen.php">Log In</a></li>
-                
+
             </ul>
         </nav>
     </header>
